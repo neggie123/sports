@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    text-align: center;
+    margin-right: 20px;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+}
+footer{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.items{
+    display: contents;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 30px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+.item img{
+    display:grid;
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    box-sizing: content-box;
+    margin: 50px auto;
+}
+.item img:hover{
+    transform:scale(1.04);
+    cursor: pointer;
+}
+.item h2{
+    padding: 20px 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.item p{
+    padding: 10px;
+    text-align: center;
+}
+.nej{
+   height: 20px;
+    width: 30px;
+    background-color: black;
+    margin: 20px;
+}
+@media all and (max-width: 1000px) {
+}
+@media all and (max-width: 500px) {
+}
+@media all and (max-width: 250px) {
+}
+@media all and (max-width: 150px) {
+}
+@media all and (max-width: 100px) {
+}
